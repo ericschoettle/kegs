@@ -2,6 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
+## Planning
+
+* keg object with name, brand, price, abv, beer type, quantity
+* page to view kegs (1 way binding to show)
+* form to create a new keg object (1 way binding)
+* edit form for keg (2 way bindings)
+* two user classes: employee or patron. 
+* Patron can view kegs
+* Employee can edit kegs
+* Employee can click button to "pour" a beer. 
+* Search function by number of beers left in a keg
+* Display beer type with classes (dark beer = dark color)
+
+Stetch goals
+* As an employee, I want to select an option to put a certain keg on sale. This would lower the cost by a percentage of my choosing, and perhaps change a keg's appearance in the list to draw customers' attention to it
+* As an employee, I might want to trigger the "happy hour" option automatically at a certain time of the day or week
+* patron / employee login
+
+* Components
+  * Display kegs
+  * Create kegs
+  * Edit Kegs
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
